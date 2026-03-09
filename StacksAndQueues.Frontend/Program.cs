@@ -57,13 +57,3 @@ string Menu()
     return Console.ReadLine() ?? string.Empty;
 
 }
-
-try
-{
-
-
-}
-catch(Exception ex)
-{
-    Console.WriteLine(ex.Message);
-}
