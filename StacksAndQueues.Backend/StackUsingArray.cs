@@ -1,6 +1,6 @@
 ﻿namespace StacksAndQueues.Backend;
 
-public class StackUsingArray<T>
+public class StackUsingArray<T> : IStack<T>
 {
     private T[] _stack;
     private int _top;
@@ -11,7 +11,7 @@ public class StackUsingArray<T>
         _top = -1;
     }
 
-    public void Push (T item)
+    public void Push(T item)
     {
         if (_top == _stack.Length - 1)
         {
@@ -20,13 +20,13 @@ public class StackUsingArray<T>
         _stack[++_top] = item;
     }
 
-    public T Pop ()
+    public T Pop()
     {
         if (_top == -1)
         {
             throw new InvalidOperationException("Stack is empty");
         }
-        
+
         return _stack[_top--];
     }
 

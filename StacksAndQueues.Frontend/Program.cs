@@ -1,6 +1,6 @@
 ﻿
 using StacksAndQueues.Backend;
-var stack = new StackUsingArray<string>(5);
+var stack = new Stack<string>();
 var option = string.Empty;
 
 do
