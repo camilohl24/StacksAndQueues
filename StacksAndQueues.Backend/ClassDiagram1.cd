@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="StacksAndQueues.Backend.StackUsingArray&lt;T&gt;">
-    <Position X="3.5" Y="1.25" Width="1.5" />
+    <Position X="1" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAGAAAAAAAAAAAAAACAAAAAAAAAAAAACBA=</HashCode>
       <FileName>StackUsingArray.cs</FileName>
@@ -9,18 +9,41 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="StacksAndQueues.Backend.StackUsingList&lt;T&gt;">
-    <Position X="5.75" Y="1.5" Width="1.5" />
+    <Position X="3.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAACAAAAAAAAAAAAACBA=</HashCode>
       <FileName>StackUsingList.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="StacksAndQueues.Backend.QueueUsingArray&lt;T&gt;">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABQAAAAAAAABAAAEAAAAAAAAAAABAAAAACAAAAAAAA=</HashCode>
+      <FileName>QueueUsingArray.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StacksAndQueues.Backend.QueueUsingList&lt;T&gt;">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueueUsingList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Interface Name="StacksAndQueues.Backend.IStack&lt;T&gt;">
-    <Position X="8.25" Y="0.5" Width="1.5" />
+    <Position X="2" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAACAAAAAAAAAAAAACAA=</HashCode>
       <FileName>IStack.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StacksAndQueues.Backend.IQueue&lt;T&gt;">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IQueue.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />
